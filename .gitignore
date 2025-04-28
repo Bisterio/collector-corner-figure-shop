@@ -1,4 +1,5 @@
 # Node modules
+node_modules/
 back-end/node_modules/
 front-end/node_modules/
 
@@ -6,8 +7,21 @@ front-end/node_modules/
 back-end/.env
 
 # Build folders
-front-end/dist/
 front-end/build/
+front-end/dist/
 
-# Prisma generated
+# Logs
+*.log
+back-end/logs/
+front-end/logs/
+
+# Prisma
 back-end/prisma/dev.db
+back-end/generated/
+
+# Vscode settings (optional)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
